@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import "./Header.css";
-
+import { AiOutlineShoppingCart } from "react-icons/ai"
 const Header = () => {
   return (
     <header className='header'>
@@ -25,7 +25,9 @@ const Header = () => {
             </ul>
             <ul>
                 <li>
-                    <Link to="/cart">Cart</Link>
+                    <Link to="/cart" className='cart'>
+                    <AiOutlineShoppingCart/>
+                    </Link>
                 </li>
             </ul>
         </div>
