@@ -1,10 +1,10 @@
-const Data={
+const data={
     productItems:[
         {
             id:"1",
             name:"Beats Headphone",
             price:999,
-            image:"./assets/1.jpg"
+            image:"./assets/3.jpg"
         },
         {
             id:"2",
@@ -32,3 +32,5 @@ const Data={
         },
     ]
 }
+
+export default data;

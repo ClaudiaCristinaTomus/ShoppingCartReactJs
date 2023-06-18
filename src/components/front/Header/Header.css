@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    background-color: black;
+    background-color: rgb(193, 193, 187)
 
 }
 
@@ -18,4 +18,26 @@
     text-transform: uppercase;
     color:white;
     padding-left: 40px;
+}
+
+.header-links{
+    display: flex;
+}
+
+.header-links ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.header-links ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    padding:0px 15px;
+}
+
+
+.header-links ul li a:hover{
+    color:#fffc3c;
 }
